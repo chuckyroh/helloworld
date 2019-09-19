@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
  
-  <title>Hello World!</title>
+  	<title>Hello World!</title>
+
+  	<style>
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+
+		body {
+			line-height: 1;
+		}
+
+		ol, ul {
+			list-style: none;
+		}
+
+		blockquote, q {
+			quotes: none;
+		}
+
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		/* ************************************* */
+
+  		html {
+		  	box-sizing: border-box;
+		}
+
+  		*, *:before, *:after {
+		  	box-sizing: inherit;
+		  
+		}
+
+  		body {
+  			font-size: 16px;
+  			font-family: Calibri, sans-serif;
+  		}
+
+  		/* ************************************** */
+
+		.hero-banner {
+			height: 100vh;
+			width: 100vw;
+			background-color: #455A64;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.title-phrase{
+			color: #FFEE58;
+			font-weight: bolder;
+			font-size: 10vw;
+			text-align: center;
+		}
+
+		.title-word {
+			white-space: nowrap;
+			display: inline-block;
+		}
+
+		.title-letter {
+			transition: transform .4s;
+			display: inline-block;
+		}
+		.word-hello .title-letter:hover {
+			transform: translate(-20%,-50%) rotate(-20deg);
+		}
+		.word-world .title-letter:hover {
+			transform: translate(20%, 50%) rotate(-20deg);
+		}
+			
+  	</style>
 </head>
 <body>
-  Hello World!
- 
+  	<main class="main">
+
+  		<div class="hero-banner">
+	  		<div class="title-phrase">
+	  			<div class="title-word word-hello">
+		  			<span class="title-letter letter-H">H</span>
+		  			<span class="title-letter letter-E">E</span>
+		  			<span class="title-letter letter-L">L</span>
+		  			<span class="title-letter letter-L">L</span>
+		  			<span class="title-letter letter-O">O</span>
+	  			</div>
+
+	  			<div class="title-word word-world">
+		  			<span class="title-letter letter-W">W</span>
+		  			<span class="title-letter letter-O">O</span>
+		  			<span class="title-letter letter-R">R</span>
+		  			<span class="title-letter letter-L">L</span>
+		  			<span class="title-letter letter-D">D</span>
+		  		</div>
+	  		</div>
+  		</div>
+
+  	</main>
+
+  	<script>
+
+  	</script>
 </body>
 </html>
