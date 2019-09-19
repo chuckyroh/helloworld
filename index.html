@@ -77,17 +77,39 @@
 		.hero-banner {
 			height: 100vh;
 			width: 100vw;
-			background-color: #455A64;
+			background-color: hsl(199, 18%, 33%);
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			position: relative;
 		}
 
+		.backdrop {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.blocks {
+			width: 5vw;
+			height: 20vh;
+			border: 1px solid hsl(199, 18%, 50%);
+			transition: background-color .4s;
+		}
+			.blocks:hover {
+				background-color: hsl(199, 18%, 20%);
+
+			}
+
 		.title-phrase{
-			color: #FFEE58;
+			color: hsl(54, 100%, 67%);
 			font-weight: bolder;
 			font-size: 10vw;
 			text-align: center;
+			position: relative;
+
 		}
 
 		.title-word {
@@ -112,6 +134,113 @@
   	<main class="main">
 
   		<div class="hero-banner">
+  			<div class="backdrop">
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  				<div class="blocks"></div>
+  			</div>
+
 	  		<div class="title-phrase">
 	  			<div class="title-word word-hello">
 		  			<span class="title-letter letter-H">H</span>
